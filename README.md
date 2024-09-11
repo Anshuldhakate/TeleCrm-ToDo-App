@@ -5,6 +5,7 @@
 This is a simple Todo application built with React. It allows users to add, view, and remove tasks. The application uses localStorage to persist data across browser sessions.
 
 ## Deployed Link-
+https://extraordinary-cactus-b8a7d1.netlify.app
 
 
 <img width="879" alt="Screenshot 2024-09-11 133127" src="https://github.com/user-attachments/assets/debb6e0d-b610-4bd8-a617-b633758ce39a">
