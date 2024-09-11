@@ -1,0 +1,82 @@
+/* Container Styling */
+.todo-container {
+    background: url('https://images.unsplash.com/photo-1710162734220-d543f0dff259?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.header h1 {
+    font-size: 2.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.header h2 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+    color:black;
+}
+
+/* Input Card */
+.todo-input-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-title, 
+.input-description {
+    border-radius: 10px;
+    background-color: rgba(249, 231, 255, 0.8);
+    padding: 10px;
+    border: 1px solid #D6A2E8;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #FF6FB5;
+    border-color: #FF6FB5;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #D355E7;
+    border-color: #D355E7;
+}
+
+/* Task List */
+.todo-list .todo-card {
+    background-color: rgba(250, 185, 195, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todo-card h4 {
+    margin: 0 0 5px;
+    font-size: 1.5em;
+}
+
+.todo-card p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+}
